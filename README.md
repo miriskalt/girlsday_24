@@ -1,1 +1,3 @@
-# girlsday_24
+# girlsday
+
+## Set up for girls day CAU activities

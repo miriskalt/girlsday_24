@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--  Navigation -->
+    <nav>
+        <img src="../images/girls_day_logo.jpg" alt="girls_day_logo" />
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a class="active" href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a  href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="aufg1-home">
+        <h2> Wie denken Computer?</h2>
+    </section>
+
+    <section id="aufgaben-container">
+        <div class="aufgaben">
+            <div class="post">
+                <img src="../images/kochbuch.jpg" alt="Kochbuch">
+                <h3>Wie bringe ich meinem Computer Pfannkuchen backen bei?</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='u_aufg1_rezept.html'> Read more</a>
+            </div>
+            <div class="post">
+                <img src="../images/onlinepython.webp" alt="onlinepython">
+                <h3>Online Programmierumgebung</h3>
+                <p>Damit ihr jetzt direkt anfangen könnt, nutzen wir heute online-python.com</p>
+                <a href='u_aufg1_online.html    '> Read more</a>
+            </div>
+            <div class="post">
+                <img src="../images/variablen.png" alt="Variablen">
+                <h3>Variablen erstellen mit Python</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='variablen.html'> Read more</a>
+            </div>
+            <!--
+            <div class="post">
+                <img src="../images/algorithm.jpg" alt="Algorithmen">
+                <h3>Algorithmen</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='algorithm.html'> Read more</a>
+            </div>
+            -->
+            <div class="post">
+                <img src="../images/funktionen.png" alt="Funktionen">
+                <h3>Funktionen mit Python</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='funktionen.html'> Read more</a>
+            </div><div class="post">
+                <img src="../images/taschenrechner.jpg" alt="Taschenrechner">
+                <h3>Taschenrechner Aufgabe</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='taschenrechner.html'> Read more</a>
+            </div>
+        </div>
+        <!--
+        <div class="cate">
+            <h2>Themen</h2>
+            <hr>
+            <a href="kochbuch.html">Pfannkuchenrezept für Computer</a>
+            <hr>
+            <a href="online_python.html">Programmierumgebung</a>
+            <hr>
+            <a href="algorithm.html">Algorithmen</a>
+            <hr>
+            <a href="variablen.html">Variablen erstellen mit Python</a>
+            <hr>
+            <a href="funktionen.html">Funktionen mit Python</a>
+            <hr>
+            <a href="taschenrechner.html">Taschenrechner Aufgabe</a>
+            <hr>
+            <a href="aufg2.html">Weitere Aufgaben</a>
+            <hr>
+        </div>
+        -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Jetzt bist du dran</h3>
+            <li>Aufgabe 1</li>
+            <li>Aufgabe 2</li>
+            <li>Aufgabe 3</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li>Homepage der Arbeitsgruppe</li>
+            <li>Vorstellung des Teams der Arbeitsgruppe</li>
+            <li>Impressum</li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+

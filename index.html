@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--  Navigation -->
+    <nav>
+        <img src="images/girls_day_logo.jpg" alt="girls_day_logo" />
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a class="active" href="#">Wilkommen</a></li>
+                <li><a href="html/aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a href="html/aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a href="html/aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a href="html/vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+            <!-- <img id="menu-btn" src="./images/menu.jpg" alt="Menu" /> -->
+
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="home">
+        <h2> Wilkommen beim GirlsDay an der CAU</h2>
+        <p> Wir freuen uns, dass du uns bei uns zu besuch bist. </p>
+        <div class="btn">
+            <a class="blue" href="html/aufg1.html">Starte mit den ersten Programmier Aufgaben</a>
+            <a class="yellow" href="html/vorstellungen.html"> Erfahre mehr über unser Team und unsere Arbeit</a>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+        <h1>Themen welche wir heute vorstellen</h1>
+        <p>Auf den jeweiligen Seiten findest du die Theorie aus den Vorträgen sowie die Anleitungen für praktische Programmieraufgaben.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fas fa-solid fa-receipt"></i>
+                <h3>Wie denken Computer?</h3>
+                <p>Anhand eines Kochrezeptes Algorithmen kennen lernen.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-solid fa-calculator"></i>
+                <h3>Programmiere deinen eigenen Taschenrechner?</h3>
+                <p>In Python erste Funktionen mit Ein- und Ausgabe programmieren.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-solid fa-laptop-code"></i>
+                <h3>Dein erster ChatBot selber Programmieren</h3>
+                <p>Lerne die Programmier Strukturen von Schleifen und Verzweigungen kennen um damit einen ChatBot zu programmieren.</p>
+            </div>
+        </div>
+
+        <!-- Profils -->
+        <section id="tutors">
+            <h1>Wer sind wir?</h1>
+            <p> Wir sind zwei Doktoranten der Universität Kiel: Nanni und Mirjam</p>
+            
+            <div class="tutor-box">
+                <div class="profile">
+                    <img src="images/team/nanni.png" alt="Nanni">
+                    <h6> Nanni (Nadine Sarah) Schüler</h6>
+                    <p> Text über Nanni</p>                
+                </div>
+
+                <div class="profile">
+                    <img src="images/team/nanni.png" alt="Mirjam">
+                    <h6> Miri (Mirjam Raffaela) Bayer</h6>
+                    <p> Text über Miri</p>                
+                </div>
+                
+            </div>
+        </section>
+
+
+    
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+
+<footer>
+    <div class="footer-col">
+        <h3>Jetzt bist du dran</h3>
+        <li>Aufgabe 1</li>
+        <li>Aufgabe 2</li>
+        <li>Aufgabe 3</li>
+
+    </div>
+    <div class="footer-col">
+        <h3>Andere Links</h3>
+        <li href="https://www.isdm.informatik.uni-kiel.de/de">Homepage der Arbeitsgruppe</li>
+        <li>Vorstellung des Teams der Arbeitsgruppe</li>
+        <li>Impressum</li>
+        
+    </div>
+    <div class="copyright">
+        <p>Copyright ©2023 All rights reserved | This website is made by ISDM CAU Kiel </p>
+        <div class="pro-links">
+            <i class="fas fa-link"></i>    
+        </div>
+        
+    </div>
+</footer>
+
+</html>

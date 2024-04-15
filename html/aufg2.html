@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Day CAU</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--  Navigation -->
+    <nav>
+        <img src="../images/girls_day_logo.jpg" alt="girls_day_logo" />
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="../index.html">Wilkommen</a></li>
+                <li><a href="aufg1.html">Aufgabenrunde 1</a></li>
+                <li><a class="active"href="aufg2.html">Aufgabenrunde 2</a></li>
+                <li><a  href="aufg3.html">Aufgabenrunde 3</a></li>
+                <li><a  href="vorstellungen.html">Vorstellungsvideos</a></li>
+
+            </ul>
+            <i id="menu-btn" class="fas fa-bars"></i>
+
+        </div>
+    </nav>
+
+
+    <!-- Home  -->
+    <section id="aufg1-home">
+        <h2>Lerne Schleifen und Verzweigungen kennen.</h2>
+    </section>
+
+    <section id="aufgaben-container">
+        <div class="aufgaben">
+            <div class="post">
+                <img src="../images/if.jpg" alt="Verzweigung">
+                <h3>Wie funktionieren If-Verzweigungen?</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='if.html'> Read more</a>
+            </div>
+            <div class="post">
+                <img src="../images/listen.jpg" alt="Listen">
+                <h3>Was sind Listen in Python?</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='listen.html'> Read more</a>
+            </div><div class="post">
+                <img src="../images/for.jpg" alt="For">
+                <h3>Wie funktionieren For-Schleifen?</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='for.html'> Read more</a>
+            </div><div class="post">
+                <img src="../images/zufall.jpg" alt="Zufall">
+                <h3>Zufall und Eingaben in Python</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='zufall.html'> Read more</a>
+            </div><div class="post">
+                <img src="../images/chatbot.jpg" alt="Chatbot">
+                <h3>Dein Chatbot</h3>
+                <p>Text Text Text aus Folien</p>
+                <a href='chatbot.html'> Read more</a>
+            </div>
+        </div>
+        <!--    
+        <div class="cate">
+            <h2>Themen</h2>
+            <hr>
+            <a href="if.html">If Verzweigungen in Python</a>
+            <hr>
+            <a href="listen.html">Listen</a>
+            <hr>
+            <a href="for.html">For Schleifen in Python</a>
+            <hr>
+            <a href="zufall.html">Zufall in Python</a>
+            <hr>
+            <a href="chatbot.html">ChatBot Aufgabe</a>
+            <hr>
+            <a href="aufg3.html">Weitere Aufgaben</a>
+            <hr>
+        </div>
+        </div>
+        -->
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Jetzt bist du dran</h3>
+            <li>Aufgabe 1</li>
+            <li>Aufgabe 2</li>
+            <li>Aufgabe 3</li>
+
+        </div>
+        <div class="footer-col">
+            <h3>Andere Links</h3>
+            <li>Homepage der Arbeitsgruppe</li>
+            <li>Vorstellung des Teams der Arbeitsgruppe</li>
+            <li>Impressum</li>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2023 All rights reserved | This website is made by ISDM CAU Kiel </p>
+            <div class="pro-links">
+                <i class="fas fa-link"></i>    
+            </div>
+            
+        </div>
+    </footer>
+    <script>
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
